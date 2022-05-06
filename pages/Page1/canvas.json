@@ -70,8 +70,8 @@
               "dynamicPropertyPathList": [],
               "displayName": "Table",
               "iconSVG": "/static/media/icon.db8a9cbd.svg",
-              "topRow": 27,
-              "bottomRow": 55,
+              "topRow": 39,
+              "bottomRow": 67,
               "isSortable": true,
               "parentRowSpace": 10,
               "type": "TABLE_WIDGET",
@@ -90,7 +90,7 @@
                   "key": "primaryColumns.department_name.computedValue"
                 }
               ],
-              "leftColumn": 14,
+              "leftColumn": 12,
               "primaryColumns": {
                 "department_id": {
                   "index": 0,
@@ -130,7 +130,7 @@
               "delimiter": ",",
               "key": "m1k4s532ph",
               "derivedColumns": {},
-              "rightColumn": 48,
+              "rightColumn": 46,
               "textSize": "PARAGRAPH",
               "widgetId": "s5e5xrbg8b",
               "isVisibleFilters": true,
