@@ -70,8 +70,8 @@
               "dynamicPropertyPathList": [],
               "displayName": "Table",
               "iconSVG": "/static/media/icon.db8a9cbd.svg",
-              "topRow": 39,
-              "bottomRow": 67,
+              "topRow": 35,
+              "bottomRow": 63,
               "isSortable": true,
               "parentRowSpace": 10,
               "type": "TABLE_WIDGET",
@@ -90,7 +90,7 @@
                   "key": "primaryColumns.department_name.computedValue"
                 }
               ],
-              "leftColumn": 12,
+              "leftColumn": 18,
               "primaryColumns": {
                 "department_id": {
                   "index": 0,
@@ -130,7 +130,7 @@
               "delimiter": ",",
               "key": "m1k4s532ph",
               "derivedColumns": {},
-              "rightColumn": 46,
+              "rightColumn": 52,
               "textSize": "PARAGRAPH",
               "widgetId": "s5e5xrbg8b",
               "isVisibleFilters": true,
@@ -147,6 +147,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "isVisiblePagination": true,
+              "primaryColumnId": "department_id",
               "verticalAlignment": "CENTER",
               "columnSizeMap": {
                 "task": 245,
@@ -206,6 +207,30 @@
               "isLoading": false,
               "menuColor": "#03B365",
               "placement": "CENTER"
+            },
+            {
+              "isMirrored": true,
+              "widgetName": "Camera1",
+              "rightColumn": 48,
+              "isCanvas": false,
+              "displayName": "Camera",
+              "iconSVG": "/static/media/icon.79c0d6de.svg",
+              "widgetId": "242ju6braz",
+              "topRow": 64,
+              "bottomRow": 97,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "CAMERA_WIDGET",
+              "version": 1,
+              "hideCard": false,
+              "parentId": "0",
+              "mode": "CAMERA",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "parentColumnSpace": 19.8125,
+              "leftColumn": 23,
+              "isDisabled": false,
+              "key": "gjyetlweqa"
             }
           ]
         },
@@ -222,6 +247,7 @@
           ]
         ],
         "widgetNames": [
+          "Camera1",
           "Checkbox1",
           "MainContainer",
           "MenuButton1",
