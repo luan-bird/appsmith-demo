@@ -209,28 +209,35 @@
               "placement": "CENTER"
             },
             {
-              "isMirrored": true,
               "widgetName": "Camera1",
-              "rightColumn": 48,
               "isCanvas": false,
               "displayName": "Camera",
               "iconSVG": "/static/media/icon.79c0d6de.svg",
-              "widgetId": "242ju6braz",
               "topRow": 64,
               "bottomRow": 97,
+              "onImageSave": "{{appsmith.geolocation.watchPosition()}}",
               "parentRowSpace": 10,
-              "isVisible": true,
               "type": "CAMERA_WIDGET",
-              "version": 1,
               "hideCard": false,
-              "parentId": "0",
               "mode": "CAMERA",
-              "renderMode": "CANVAS",
-              "isLoading": false,
               "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onImageSave"
+                }
+              ],
               "leftColumn": 23,
+              "dynamicBindingPathList": [],
               "isDisabled": false,
-              "key": "gjyetlweqa"
+              "key": "gjyetlweqa",
+              "isMirrored": false,
+              "rightColumn": 48,
+              "widgetId": "242ju6braz",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false
             }
           ]
         },
