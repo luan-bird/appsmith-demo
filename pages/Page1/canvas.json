@@ -70,8 +70,8 @@
               "dynamicPropertyPathList": [],
               "displayName": "Table",
               "iconSVG": "/static/media/icon.db8a9cbd.svg",
-              "topRow": 24,
-              "bottomRow": 52,
+              "topRow": 35,
+              "bottomRow": 63,
               "isSortable": true,
               "parentRowSpace": 10,
               "type": "TABLE_WIDGET",
@@ -107,7 +107,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "department_id",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.department_id))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.department_id))}}",
+                  "cellBackground": "#38AFF4",
+                  "textColor": "#DD4B34"
                 },
                 "department_name": {
                   "index": 1,
@@ -124,7 +126,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "department_name",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.department_name))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.department_name))}}",
+                  "cellBackground": "#38AFF4",
+                  "textColor": "#DD4B34"
                 }
               },
               "delimiter": ",",
@@ -140,6 +144,7 @@
               "searchKey": "",
               "enableClientSideSearch": true,
               "version": 3,
+              "textColor": "#DD4B34",
               "totalRecordsCount": 0,
               "parentId": "0",
               "renderMode": "CANVAS",
@@ -148,6 +153,7 @@
               "isVisibleSearch": true,
               "isVisiblePagination": true,
               "primaryColumnId": "department_id",
+              "cellBackground": "#38AFF4",
               "verticalAlignment": "CENTER",
               "columnSizeMap": {
                 "task": 245,
@@ -213,9 +219,9 @@
               "isCanvas": false,
               "displayName": "Camera",
               "iconSVG": "/static/media/icon.79c0d6de.svg",
-              "topRow": 53,
-              "bottomRow": 86,
-              "onImageSave": "{{showModal()}}",
+              "topRow": 64,
+              "bottomRow": 97,
+              "onImageSave": "{{appsmith.geolocation.watchPosition()}}",
               "parentRowSpace": 10,
               "type": "CAMERA_WIDGET",
               "hideCard": false,
@@ -226,14 +232,14 @@
                   "key": "onImageSave"
                 }
               ],
-              "leftColumn": 19,
+              "leftColumn": 23,
               "dynamicBindingPathList": [],
-              "isDisabled": true,
+              "isDisabled": false,
               "key": "gjyetlweqa",
-              "isMirrored": true,
-              "rightColumn": 44,
+              "isMirrored": false,
+              "rightColumn": 48,
               "widgetId": "242ju6braz",
-              "isVisible": false,
+              "isVisible": true,
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
